@@ -1,0 +1,153 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:inter;
+}
+.div1{
+    height:50%;
+    width:100%;
+}
+
+.heading-div{
+    display:flex;
+    flex-direction:row;
+}
+.head-paraa{
+    display:inline-block;
+    font-size:56px;
+    color:#223354;
+    opacity: 0.50;
+    margin-top:30px;
+    margin-left:50px;;
+    font-family:inter;
+
+}
+.head{
+    display:inline-block;
+    font-size:56px;
+    color:#223354;
+    margin-top:30px;
+    font-family:inter;
+
+}
+
+.BIG-A{
+    color:#E0E0E0;
+    font-size:232px;
+    font-weight:700px;
+    margin-top:20px;
+    margin-left:-20px;
+    font-family:inter;
+}
+.big-heading span{
+padding:1px;
+}
+.heading-para{
+color:#BDBDBD;
+font-size:40px;
+font-weight:200px;
+font-family:inter;
+padding-top:10px;
+padding-left:20px;
+padding-bottom:20px;
+}
+.big-para{
+    color:#828282;
+    font-size:16px;
+font-weight:200px;
+font-family:inter;
+padding-left:20px;
+padding-top:7px;
+}
+.heading-tables{
+    margin-top:40px;
+    margin-left:150px;
+}
+.tables-head{
+    font-family:inter;
+    color:#223354;
+    font-size:56px;
+    font-weight:700px
+}
+.google-fonts{
+    color:#828282;
+    font-family:inter;
+    font-size:16px;
+    font-weight:400px
+}
+.heading-names{
+    color:#828282;
+    margin-bottom:30px;
+    font-family:inter;
+    font-size:24px;
+    font-weight:500px;
+    padding-bottom:10px;
+    padding-top:40px;
+    
+}
+.name{
+    color:#223354;
+    font-family:inter;
+    padding-right:150px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:25px;
+    font-weight:500px;
+}
+.font-size{
+    color:#828282;
+    font-family:inter;
+    padding-right:150px;
+    font-size:24px;
+    font-weight:500px;
+}
+.line-height{
+    color:#828282;
+    font-family:inter;
+    
+    font-size:24px;
+    font-weight:500px;
+}
+.div2{
+    margin-top:100px;
+}
+.div2 .heading-para {
+ color:#BDBDBD;
+ font-family: inter;
+ font-size: 40px;
+ font-weight: 500px;
+ margin-left:20px;
+}
+.div2 .name{
+    color:#223354;
+    font-size:20px;
+    font-weight:700px;
+    padding-bottom:10px;
+}
+.div2 .name1{
+    color:#223354;
+    font-size:18px;
+    font-weight:700px;
+    padding-bottom:10px;
+    
+}
+.div2 .name2{
+    color:#223354;
+    font-size:18px;
+    font-weight:700px;
+    padding-bottom:10px;
+    
+}
+.div2 .name3{
+    color:#223354;
+    font-size:14px;
+    font-weight:700px;
+    font-size: large;
+    padding-bottom:10px;
+    
+}
+.para{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:inter;
+}
