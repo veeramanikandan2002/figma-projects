@@ -13,10 +13,10 @@ font-family:inter;
     
 }
 .heading-para{
-    color:#223354;
-    opacity:0.50;
+    color:#4f4f4f;
+    
     font-size:56px;
-    font-weight:500px;
+    font-weight:500;
     display:inline-block;
     margin-left:48px;
    
@@ -32,7 +32,7 @@ width:100%;
     color:#828282;
     font-family:inter;
     font-size:32px;
-    font-weight:500px;
+    font-weight:500;
     margin-left:48px;
     margin-top:100px;
 }
@@ -44,8 +44,8 @@ color:#EFEFEF;
 }
 
 .clock-img{
-    height:76px;
-    width:76px;
+    height:99px;
+    width:96px;
     margin-left:357px;
     margin-top:100px;
    border:4px #333333;
@@ -64,7 +64,7 @@ color:#EFEFEF;
     margin-top:2px;
     color: #828282;
     font-family:inter;
-    font-weight:400px;
+    font-weight:400;
     font-size:14px;
     padding:6px;
 
@@ -73,7 +73,7 @@ color:#EFEFEF;
     color:#223354;
     padding-left:15px;
     font-family:inter;
-    font-weight:700px;
+    font-weight:700;
     font-size:14px;
     font-weight:bold;
 }
@@ -82,7 +82,7 @@ color:#EFEFEF;
     color:#828282;
     font-family:inter;
     font-size:32px;
-    font-weight:500px;
+    font-weight:500;
     margin-left:48px;
     margin-top:100px;
 }
