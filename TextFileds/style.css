@@ -9,11 +9,10 @@ font-family:inter;
 }
 .heading-p{
     display:inline-block;
-    color:#223354;
-    opacity: 0.5;
+    color:#474747;
     font-family:inter;
     font-size: 56px;
-    font-weight:600px;
+    font-weight:400;
     padding-top:48px;
     margin-left:48px;
 }
@@ -21,7 +20,7 @@ font-family:inter;
     color:#223354;
     font-family:inter;
     font-size: 56px;
-    font-weight:600px;
+    font-weight:600;
     display:inline;   
 }
 .div1{
@@ -34,7 +33,8 @@ width:40%;
     color:#BDBDBD;
     margin-top:100px;
     margin-left:48px;
-    
+    font-size:16px;
+     font-weight:500;
 }
 .lable{
     color:#223354;
@@ -48,6 +48,8 @@ width:40%;
   color:#BDBDBD;
 margin-top:3px;
 margin-left:48px;
+font-size:16px;
+font-weight:500;
 
 }
 .input-box{
@@ -55,12 +57,13 @@ margin-left:48px;
     margin-top:7px;
     margin-left:48px;
     margin-bottom:5px;
-    padding-top:18.5px;
-    padding-bottom:18.5px;
-    padding-left:50px;
-    padding-right:100px;
+    padding-top:16px;
+    padding-bottom:16px;
+    padding-left:24px;
+    padding-right:80px;
     color:#4F4F4F;
     font-size:16px;
+    font-weight:400;
 
 }
 .input-text-icon-div{
@@ -71,9 +74,7 @@ margin-left:48px;
 .imge{
     position:absolute;
     top:30px;
-    right:50px;
-    
-    
+    right:90px;   
 }
 .img-icon{
     height:24px;
@@ -81,17 +82,14 @@ margin-left:48px;
 }
 .div2{
     display:inline;
-
     margin-top:100px;
     margin-left:-10px;
-
 }
 .input-rules{
     height:170px;
     width:392px;
     background-color:#EDF0F5;
     margin-left:20px;
-    
 }
 .img-para{
     
@@ -128,6 +126,7 @@ color:#BDBDBD;
     padding-right:100px;
     color:#4F4F4F;
     font-size:16px;
+    font-weight:400;
 }
 
 .input-state{
@@ -148,6 +147,8 @@ color:#BDBDBD;
 margin-top:3px;
 margin-bottom:5px;
 margin-left:20px;
+font-size:16px;
+font-weight:500;
 
 }
 .input-box-1{
@@ -161,7 +162,7 @@ margin-left:20px;
     padding-right:80px;
     color:#4F4F4F;
     font-size:16px;
-    
+    font-weight:400;
     margin-right:20px;
     border:1px solid #27AE60;
 }
@@ -169,16 +170,22 @@ margin-left:20px;
 color:green;
 margin-left:20px;
 margin-top:1px;
+font-size:16px;
+font-weight:500;
 }
 .lable-title-3{
     color:#E2B93B;
     margin-left:20px;
     margin-top:1px;
+    font-size:16px;
+    font-weight:500;
     }
     .lable-title-4{
         color:#EB5757;
         margin-left:20px;
         margin-top:1px;
+        font-size:16px;
+        font-weight:500;
         }
 
 .input-box-2{
@@ -190,6 +197,7 @@ margin-top:1px;
     padding-right:80px;
     color:#4F4F4F;
     font-size:16px;
+    font-weight:400;
     margin-top:5px;
     margin-right:20px;
     border:1px solid #E2B93B;
@@ -203,6 +211,7 @@ margin-top:1px;
     padding-right:80px;
     color:#4F4F4F;
     font-size:16px;
+    font-weight:400;
     margin-top:5px;
     margin-right:20px;
     border:1px solid #EB5757;
