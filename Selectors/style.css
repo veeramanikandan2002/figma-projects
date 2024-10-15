@@ -118,6 +118,7 @@ border-radius:4px;
     
 }
 
+
 .check-box1{
     color: #BDBDBD;
     font-size:16px;
@@ -156,8 +157,26 @@ border-radius:4px;
     width:24px;
     margin-top:5px;
     margin-right:5px;
-   
+   appearance:none;
+   border: 2px solid #BDBDBD;
+   border-radius: 4px; 
+   position: relative;
 }
+.check-box-button:checked{
+    background-color:#223354;
+}
+.check-box-button:checked::after{
+    content: "";
+    position: absolute;
+    top: 2px; 
+    left: 5px; 
+    width: 5px; 
+    height: 10px; 
+    border: solid white;
+    border-width: 0 2px 2px 0; 
+   transform: rotate(45deg);
+}
+
 .radio-buttton{
 flex-direction:row;
 margin-left:100px;
@@ -173,7 +192,29 @@ margin-left:100px;
     width:24px;
     margin-top:5px;
     margin-right:5px;
+    appearance: none; 
+    border-radius: 50%; 
+    outline: none; 
+    position: relative;
+    border: 2px solid #BDBDBD;
 }
+.Radio-button:checked{
+background-color:white ;
+border: 2px solid #223354;
+}
+
+.Radio-button:checked::after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px; 
+    height: 10px;
+    border-radius: 50%; 
+    background-color:#223354 ;
+   
+}
+
 .radio-para-1{
     display:inline-block;
     padding:3px;
@@ -226,11 +267,12 @@ margin-left:100px;
     padding-bottom: 18.5px;
     padding-left: 130px;
     padding-right: 130px;
-    color:#828282;
+    color:#BDBDBD;
     font-size: 16px;
     font-weight:400;
     margin-top:30px;
     border-radius:6px;
+    background-color: #FFFFFF;
 }
 .end-div{
     display:flex;
@@ -261,9 +303,6 @@ background-color:#223354;
 flex-direction:row;
 border-radius:4px;
 margin-left:10px;
-text-align:center;
-font-size:16px;
-font-weight:500;
 color:#FFFFFF;
 }
 .without{
@@ -275,9 +314,13 @@ color:#FFFFFF;
         margin-left:10px;  
         flex-direction:row; 
         border:1px solid;
-        text-align:center;
-        font-size:16px;
-        font-weight:500;
+       
+}
+.paggi-p{
+font-size:14px;
+font-weight:700;
+margin-top:14px;
+margin-left:20px;
 }
 .Breadcrumbs{
  margin-left:100px;
@@ -452,6 +495,7 @@ padding:10px;
       background-color:#223354;
       color:#FFFFFF;
       border-radius:50%;
+      padding-left:15px;
 
      }
      .tr-3 .td-8{
