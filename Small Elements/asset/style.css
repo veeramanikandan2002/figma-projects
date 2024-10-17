@@ -40,18 +40,35 @@
 }
 .no-file-selected{
 position:relative;
+height:55px;
+width:386px;
+border:1px solid #4F4F4F;
+border-radius:4px;
+font-size:16px;
+font-weight:400;
+}
+.nofiles-choosen{
+    margin-left:30px;
+    margin-top:20px;
+    color:#4F4F4F;
 }
 .input{
 padding:17px 180px 17px 24px;
 color:#4F4F4F;
 border-radius:4px;
-margin-top:10px;
-border:1px solid #4F4F4F;
+top:0px;
+left:0px;
+display:block;
+position:absolute;
+z-index: 99;
+opacity:0%;
+cursor: pointer;
 }
+
 .button-browese{
     position:absolute;
-    top:14px;
-    left:280px;
+    top:6px;
+    left:278px;
 }
 .button-browese button{
     padding:14px 27px;
