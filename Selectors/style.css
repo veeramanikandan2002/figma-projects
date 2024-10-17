@@ -6,9 +6,7 @@ font-family:inter;
 }
 .heading-para{
     display: inline-block;
-    color: #223354;
-    opacity: 0.5;
-    font-family: inter;
+    color: #4f4f4f;
     font-size: 56px;
     font-weight:400;
     padding-top: 48px;
@@ -16,7 +14,6 @@ font-family:inter;
 }
 .heading{
     color: #223354;
-    font-family: inter;
     font-size: 56px;
     font-weight: 500;
     display: inline;
@@ -66,7 +63,7 @@ flex-direction:row
     color:#FFFFFF;
 }
 .option1{
-    margin-top: 15px;
+    margin-top: 48px;
     margin-left: 48px;
     margin-bottom: 20px;
     padding-top: 18.5px;
@@ -80,7 +77,7 @@ flex-direction:row
 .option-boxs{
     width: 360px;
 height: 165px;
-margin-top: 6px;
+margin-top: 8px;
 margin-left: 48px;
 gap: 0px;
 border:1px solid #BDBDBD;
@@ -155,7 +152,7 @@ border-radius:4px;
 .check-box-button{
     height:24px;
     width:24px;
-    margin-top:5px;
+    margin-top:24px;
     margin-right:5px;
    appearance:none;
    border: 2px solid #BDBDBD;
@@ -190,7 +187,7 @@ margin-left:100px;
 .Radio-button{
     height:24px;
     width:24px;
-    margin-top:5px;
+    margin-top:24px;
     margin-right:5px;
     appearance: none; 
     border-radius: 50%; 
@@ -272,6 +269,7 @@ border: 2px solid #223354;
     font-weight:400;
     margin-top:30px;
     border-radius:6px;
+    border:1px solid;
     background-color: #FFFFFF;
 }
 .end-div{
@@ -336,8 +334,10 @@ color:#223354;
 display:inline-block;
 font-weight:500;
 font-size:16px;
-
-
+}
+.para-home span{
+    padding-left:3px;
+    padding-right:7px;
 }
 .tabs{
     margin-left:100px;
@@ -455,7 +455,7 @@ padding:10px;
         margin-left:10px;
       }
       .calender{
-       margin-top:100px;
+       margin-top:150px;
        margin-bottom:50px;
       }
       .datepicker{
