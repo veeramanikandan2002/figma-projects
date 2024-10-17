@@ -24,15 +24,19 @@
 .container{
     display:flex;
     margin-top:100px;
-    margin-left:48px;
+   
+   
 }
 .div-1{
-    width:50%;
+    width:39%;
+    margin-left:48px;
 }
 .head-para{
     color:#BDBDBD;
     font-size:16px;
     font-weight:500;
+   
+   
 }
 .no-file-selected{
 position:relative;
@@ -47,7 +51,7 @@ border:1px solid #4F4F4F;
 .button-browese{
     position:absolute;
     top:14px;
-    left:284px;
+    left:280px;
 }
 .button-browese button{
     padding:14px 27px;
@@ -77,18 +81,21 @@ border:1px solid #4F4F4F;
 .sample-jpg-img{
     display:inline-block;
     margin-left:24px;
-    margin-top:16px
+    
+    vertical-align: middle;
 }
 .sample-jpg-para{
     color:#FFFFFF;
     font-size:16px;
     font-weight:700;
     display:inline-block;
+    margin-top:16px;  
 }
 .sample-img{
     position:absolute;
      top:3px;
-     left:312px;
+     left:325px;
+     
     
 }
 .sample-jpg-div2{
@@ -108,13 +115,14 @@ border:1px solid #4F4F4F;
 .sample-jpg-img-div2{
     display:inline-block;
     margin-left:24px;
-    margin-top:16px
+    vertical-align: middle;
 }
 .sample-jpg-para-div2{
     color:#223354;
     font-size:16px;
     font-weight:700;
     display:inline-block;
+    margin-top:16px;
 }
 .sample-jpg-img-div2{
     height:24px;
@@ -124,7 +132,7 @@ border:1px solid #4F4F4F;
 .sample-img-div2{
     position:absolute;
     top:9.71px;
-    left:312px;
+    left:325px;
 }
 .file-upload-div{
     margin-top:40px;
@@ -145,24 +153,24 @@ border:1px solid #4F4F4F;
     height:175px;
     width:338px;
     border-style:dashed;
-    margin-left:30px;
+    margin-left:24px;
 }
 .drag-img{
-    margin-left:110px;
+    margin-left:154px;
     margin-top:30px;
 }
 .drag-drop{
 color:#4F4F4F;
 font-size:14px;
 font-weight:400px;
-margin-left:100px;
+margin-left:113px;
 margin-top:10px;
 }
 .or{
     color:#4F4F4F;
 font-size:14px;
 font-weight:400px;
-margin-left:110px;
+margin-left:161px;
 margin-top:10px;
 }
 .browse-tag{
@@ -170,7 +178,7 @@ margin-top:10px;
     text-decoration:none;
     font-size:14px;
     font-weight:700;
-    margin-left:100px;
+    margin-left:144px;
 }
 .uploadnow{
     padding:16px 121px;
@@ -203,16 +211,17 @@ margin-top:10px;
 }
 .fill-img{
     display:inline;
-  margin-top:30px;
   margin-left: 20px; 
   height:24px;
   width:24px;
+  vertical-align: middle;
 }
 .sample-png{
     display:inline-block;
     font-size:16px;
     font-weight:700;
     color:#4F4F4F;
+    margin-top:40px;
 }
 .progress{
     height:24px;
@@ -220,8 +229,8 @@ margin-top:10px;
     background-color:#E0E0E0;
     border-radius:4px;
     position:relative;
-    margin-left:20px;
-    margin-top:30px;
+   margin-left:40px;
+    margin-top:20px;
 }
 .small-progress{
     height:24px;
@@ -240,6 +249,9 @@ margin-top:10px;
     font-weight:400px;
 }
 
+.div-2{
+    width:50%;
+}
 .Progress-Bar{
     color:#BDBDBD;
     font-size:16px;
@@ -247,7 +259,7 @@ margin-top:10px;
 }
 .progress-bar{
     height:24px;
-    width:589px;
+    width:100%;
     background-color:#E0E0E0;
     border-radius:4px;
     position:relative;
@@ -272,11 +284,13 @@ margin-top:10px;
 .progress-text-para{
     color:#4F4F4F;
     font-size:14px;
-    font-weight:400px;
-    margin-top:30px;
+    font-weight:500px;
+    margin-top:15px;
 }
 .progress-div{
     display:flex;
+    margin-top:30px;
+    
 }
 .progress-container{
     margin-top:30px;
@@ -298,14 +312,14 @@ margin-top:10px;
 }
 .prog-h5{
 position:absolute;
-    top:50px;
-    left:60px;
+    top:40px;
+    left:50px;
     color:#223354;
     font-weight:700;
     font-size:32px;
 }
 .prog-p{
-    top:100px;
+    top:90px;
     left:35px;
     color:#333333;
     font-weight:400;
@@ -313,7 +327,8 @@ position:absolute;
     position:absolute;
 }
 .progress-div2{
-    margin-left:50px;
+   margin-left:100px;
+    margin-top:10px;
 }
 .speedo-progress-container{
    margin-top:30px;
@@ -347,7 +362,7 @@ position:absolute;
 }
 .progress-small-divs{
     display:flex;
-    margin-top:30px;
+    margin-top:10px;
     margin-left:-5px;
 }
 .progress-p{
@@ -355,6 +370,10 @@ position:absolute;
     font-size:16px;
     font-weight:400;
     display:inline-block;
+   
+}
+.progress2 .progress-p,.progress3 .progress-p{
+    margin-left:-20px;
 }
 .first-prog{
     margin-top:10px;
@@ -393,6 +412,8 @@ position:absolute;
 }
 .tags-divs{
     display:flex;
+    margin-top:10px;
+    gap:16px;
 }
 .primary{
     background-color:#223354;
@@ -409,7 +430,7 @@ position:absolute;
     color:#FFFFFF;
     width:89px;
     height:39px;
-    margin-left:10px;
+   
 }
 .sucess{
     background-color:#27AE60;
@@ -418,7 +439,7 @@ position:absolute;
     color:#FFFFFF;
     width:73px;
     height:39px;
-    margin-left:10px;
+   
 }
 .info{
     background-color:#2F80ED;
@@ -427,7 +448,7 @@ position:absolute;
     color:#FFFFFF;
     width:42px;
     height:39px;
-    margin-left:10px;
+    
 }
 .danger{
     background-color:#EB5757;
@@ -436,11 +457,12 @@ position:absolute;
     color:#FFFFFF;
     width:65px;
     height:39px; 
-    margin-left:10px;
+
 }
 .tag-dives-2{
 display:flex;
-margin-top:10px;
+margin-top:16px;
+gap:16px;
 }
 .warning{
     background-color:#E2B93B;
@@ -458,16 +480,16 @@ margin-top:10px;
     color:black;
     width:50px;
     height:39px; 
-    margin-left:10px; 
+     
 }
 .dark{
-    background-color:#EB5757;
+    background-color:#333333;
     padding:8px;
     border-radius:8px;
     color:#FFFFFF;
     width:48px;
     height:39px; 
-    margin-left:10px;  
+      
 }
 .tags p{
     padding:5px;
@@ -543,6 +565,7 @@ margin-top:30px;
 
 .small-tool-tip{
     display:flex;
+   
 }
 .tooltip{
     width:  143px;
@@ -554,7 +577,7 @@ margin-top:30px;
     
 }
 .tooltips-02 .tooltip{
-    margin-left:-40px;
+    margin-left:-50px;
 }
 
 .tooltip .tooltiptext-bottom{
@@ -657,11 +680,11 @@ margin-top:30px;
 }
 .tool-div-02{
 display:flex;
-margin-left:50px;
+margin-left:80px;
 }
 
 .tooltips-02 .tooltiptext-left{
-    right:60px;
+    left:10px;
 }
 
 
@@ -677,7 +700,7 @@ margin-left:50px;
     height: 127px;
     border-radius: 10px;
         margin-bottom:40px;
-    margin-right:40px;  
+   margin-right:40px;  
       padding-top: 10px;
     position: relative;
 }
