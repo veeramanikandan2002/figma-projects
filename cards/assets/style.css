@@ -45,8 +45,8 @@
 }
 .para-div{
     position:absolute;
-    top:200px;
-    left:150px;
+    top:180px;
+    left:100px;
 
 }
 .headig-image{
@@ -54,28 +54,31 @@ color:#FFFFFF;
 font-size:40px;
 font-weight:700;
 margin-bottom:50px;
+margin-left:100px;
 }
 .img-para{
     color:#FFFFFF;
-    font-size:16px;
+    font-weight:400px;
+    font-size:20px;    
+}
+.img-para1{
+    color:#FFFFFF;
     font-size:20px;
-    
+    margin-left:130px; 
+    font-weight:400px;
 }
 .left{
     height:32px;
     width:32px;
-    margin-right:20px;
-    background-color:#E0E0E0;
-   border-radius:50%;
-    opacity:32%;
-    color:#FFFFFF;
+    margin-right:100px;
+   vertical-align: middle;
+ 
 }
 .right{
         height:32px;
         width:32px;
-        margin-left:50px;
-        opacity:32%;
-        color:#FFFFFF;
+        margin-left:80px;
+        vertical-align: middle;
     }
  .button{
     background-color:#1AB4D7;
@@ -87,6 +90,7 @@ margin-bottom:50px;
     margin-top:40px;
     border:none;
     display:block;
+    margin-left:130px;
  }   
 .small-img{
     width:40px;
@@ -94,8 +98,15 @@ margin-bottom:50px;
     border-radius:30px;
     background-color:#FFFFFF;
     margin-top:100px;
-    margin-left:380px;
+    margin-left:498px;
 }
+.sma-img{
+    border-radius:30px;
+    background-color:#FFFFFF;
+    margin-top:100px;
+   
+} 
+
 
 .div-2{
     margin-left:48px;
@@ -150,8 +161,8 @@ border-radius: 8px 8px 0px 0px;
     color:#FFFFFF;
     font-size:16px;
     font-weight:700;
-    padding:16px 122px;
-    margin-left:20px;
+    padding:16px 125px;
+    margin:10px 60px;
     border:none;
     border-radius:8px;
 }
@@ -161,7 +172,7 @@ border-radius: 8px 8px 0px 0px;
    margin-right:48px;
     position:relative;  
     box-shadow: 0px 8px 16px 0px #00000029;
-
+    border-radius:8px;
 }
 .div-2-images{
     width:100%;
@@ -175,6 +186,7 @@ border-radius: 8px 8px 0px 0px;
     left:20px;
     
 }
+
 .third-img-para .card-heading{
     color:#FFFFFF;
 }
@@ -206,6 +218,7 @@ gap:10px;
 .first-card{
 background-color:#223354;
 height:229px;
+margin-top:20px;
 
 color:#FFFFFF;
 box-shadow: 0px 8px 16px 0px #00000029;
@@ -233,7 +246,7 @@ font-weight:400;
     background-color:#FFFFFF;
     margin-left:10px;
     height:229px;
-
+    margin-top:20px;
 border-radius:8px;
 box-shadow: 0px 8px 16px 0px #00000029;
 border: 1px solid #223354;
@@ -243,7 +256,7 @@ border: 1px solid #223354;
     margin-left:10px;
     height:213px;
 
-border-radius:4px;
+border-radius:8px;
 box-shadow: 0px 8px 16px 0px #00000029;
 }
 .card-title{
@@ -251,15 +264,15 @@ box-shadow: 0px 8px 16px 0px #00000029;
     margin-left:24px;
     font-size:24px;
     font-weight:700;
-    padding-top:10px
+    padding-top:20px
 }
 .subtitle{
     color:#BDBDBD;
     font-size:16px;
     font-weight:400px;
-    margin-top:20px;
+    margin-top:10px;
     margin-left:20px;
-    padding-top:10px;
+    padding-top:20px;
 }
 .sub-para{
     font-size:16px;
@@ -275,7 +288,7 @@ box-shadow: 0px 8px 16px 0px #00000029;
     font-size:16px;
     font-weight:700;
     color:#FFFFFF;
-    margin-top:20px;
+    margin:15px 10px;
     border-radius:6px;
     border:none;
 }
@@ -284,6 +297,9 @@ box-shadow: 0px 8px 16px 0px #00000029;
     margin-left:10px;
     height:277px;
 margin-right:48px;
-border-radius:4px;
+border-radius:8px;
 box-shadow: 0px 8px 16px 0px #00000029;
+}
+.fourth-card .card-title{
+    margin-top:-5px;
 }
