@@ -15,8 +15,7 @@
 .head-paraa{
     display:inline-block;
     font-size:56px;
-    color:#223354;
-    opacity: 0.50;
+    color:#4f4f4f;
     margin-top:30px;
     margin-left:50px;;
     font-family:inter;
@@ -61,7 +60,7 @@ padding-top:7px;
 }
 .heading-tables{
     margin-top:40px;
-    margin-left:150px;
+    margin-left:180px;
 }
 .tables-head{
     font-family:inter;
@@ -88,7 +87,7 @@ padding-top:7px;
 .name{
     color:#223354;
     font-family:inter;
-    padding-right:150px;
+    padding-right:180px;
     padding-top:10px;
     padding-bottom:10px;
     font-size:25px;
