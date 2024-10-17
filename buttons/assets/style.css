@@ -328,11 +328,13 @@ font-weight:500;
     background-color:#647087;
   }
   .div3-fourth-box-button4{
-    background-color:#E0E0E0;
+    background-color:#E0E0E0
   }
  .div3-fourth-box img{
- height:16px;
- width:18px;
+ height:24px;
+ width:24px;
+ vertical-align: middle;
+ padding-right:10px;
   } 
 
 
@@ -353,8 +355,8 @@ font-weight:500;
     color:white;
   }
   .div3-fifth-box img{
-   height:18px;
-   width:18px;
+   height:24px;
+   width:24px;
   }
   .div3-fifth-box-button1{
     background-color:#223354;
