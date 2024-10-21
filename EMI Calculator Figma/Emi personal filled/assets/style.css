@@ -1,0 +1,344 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:inter;
+}
+.container{
+    display:flex;
+    width:100%
+}
+.nav-div{
+ width:19%;
+}
+.logo{
+    margin-top:20px;
+    margin-left:74px;
+}
+.options-div{
+   
+    margin-top:83px;
+    margin-bottom:458px;
+}
+.options{
+    display:inline-block;
+    font-size:14px;
+    font-weight:400;
+    color:#223354;
+    padding-left:20px;
+    padding-bottom:25px;
+    width:75%;
+    padding-top:20px;
+    display:flex;
+    text-decoration: none;
+    margin:16px;
+}
+.options1{
+    color:#1AB4D7;
+    display:inline-block;
+    font-size:14px;
+    font-weight:400;
+    width:75%;
+    background-color:#edf9f7 ;
+    padding:20px 10px 25px 20px;
+    display:flex;
+    margin:16px;
+    text-decoration: none;
+    border-radius:15px;
+} 
+.nav-img{
+    display:inline-block;
+    padding-right:10px;
+    vertical-align: middle;
+}
+.main-div{
+    width:81%;
+}
+.head-div{
+    display:flex;
+    height:80px;
+     justify-content: space-between;
+}
+.img-logo{
+    display:flex;
+}
+.pages{
+    color:#828282;
+    font-size:16px;
+    font-weight:500;
+    display:inline-block;
+    margin-left:30px;
+    margin-top:29px;
+}
+.emi-calculator{
+    color:#223354;
+    font-size:16px;
+    font-weight:500;
+    display:inline-block;
+    margin-top:29px;   
+}
+
+.need-help{
+    color:#223354;
+    font-size:14px;
+    font-weight:400;
+    display:inline-block;
+    margin-left:4px;
+    margin-top:30px;
+    text-decoration: none;
+}
+.vert-line{
+    width:1px;
+    height:32px;
+    margin-top:24px;
+    margin-left:24px;
+    background-color:#CBCBCB;
+}
+.arrow-mark{
+    vertical-align: middle;
+    padding-left:8px;
+    padding-right:3px;
+}
+.yaga-img{
+  display:inline-block;
+    margin-top:18px;
+    margin-right:18px;
+   margin-left:24px;
+}
+.need-img{
+    height:19px;
+    width:19px;
+    margin-top:28px;
+   vertical-align: middle;
+}
+
+.home-personal{
+    display:flex;
+   margin-top:40px;
+    margin-left:30px;
+}
+.home-para{
+    color:#333333;
+    font-size:16px;
+    font-weight:500;
+}
+.samll-div1{
+    height:4px;
+    width:137px;
+    background-color:#223354;
+    margin-top:8px;
+}
+.perso-para{
+    color:#828282;
+    font-size:16px;
+    font-weight:500;
+     margin-left:6px;
+}
+ .samll-div{
+    height:3px;
+    width:117px;
+  background-color:#E0E0E0;
+  margin-top:8px;
+}
+.loan-divs{
+    background-color:#2233540D;
+    width:100%;
+    display:flex;
+    gap:40px;
+
+}
+.loan-first-div{
+    width:64%;
+}
+.loan-div1{
+display:flex;
+width:50%;
+gap:30px;
+}
+.loan-div1 .loan-head,.Loan-Tenure .loan-head{
+    margin-left:30px;
+}
+.loan-head{
+    color:#4F4F4F;
+    font-size:16px;
+    font-weight:700;
+    margin-top:40px;
+  
+}
+.loan-amound .input-box-div,.Loan-Tenure .input-box-div{
+    margin-left:30px;
+}
+  .input-box-div{
+    position:relative;
+    margin-top:20px;
+}
+.input-box{
+    font-size:16px;
+    font-weight:400;
+    background-color:#f4f5f6;
+   height:56px;
+   width:300px;
+   padding-left:20px;
+    border-radius:4px;
+    border:1px solid #BDBDBD;
+}
+.rube-img-div{
+    
+    position:absolute;
+    top:16px;
+    right:24px;
+
+}
+ .rube-img-div2{
+     
+    position:absolute;
+    top:16px;
+    right:-120px;
+ }
+.amount-para{
+    margin-top:20px;
+    margin-left:30px;
+    color:#BDBDBD;
+    font-size:14px;
+    font-weight:400;
+}
+.Interest-amound{
+width:50%;
+}
+.Loan-Tenure-div{
+   display:flex; 
+
+}
+.Loan-Tenure .loan-head{
+    margin-top:54px;
+}
+.radio-button{
+    vertical-align: middle;
+    height:24px;
+    width:24px;
+   
+    appearance: none; 
+    border-radius: 50%; 
+    outline: none; 
+    position: relative;
+    border: 2px solid #BDBDBD;
+}
+.radio-button:checked{
+background-color:white ;
+border: 2px solid #223354;
+}
+
+.radio-button:checked::after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px; 
+    height: 10px;
+    border-radius: 50%; 
+    background-color:#223354 ;
+   
+}
+.year{
+    margin-left:5px;
+    font-size:16px;
+    font-weight:500;
+    color:#4F4F4F;
+    display:inline-block;
+    padding-bottom:5px;
+    padding:10px;
+    margin-right:10px;
+
+}
+.month{
+    margin-left:5px;
+    font-size:16px;
+    font-weight:500;
+    color:#4F4F4F;
+    display:inline-block;
+    padding:10px
+}
+.radio{
+ margin-top:100px;
+ margin-left:50px;
+}
+.calculate{
+    padding:16px 80px 16px 80px;
+    margin-left:30px;
+    margin-top:70px;
+    font-weight:700;
+    font-size:16px;
+    background-color:#1AB4D7;
+    color:#FFFFFF;
+    border-radius:8px;
+    border:none;
+    margin-bottom:300px;
+}
+.second-div{
+    width:46%;
+}
+.loan-Emi-div{
+    background-color:#FFFFFF;
+    border-radius:5px;
+    border:1px solid #EFEFEF;
+    width:335px;
+    height:280px;
+    margin-top:130px;
+    margin-right:10
+}
+.loan-emi-head{
+    color:#828282;
+    font-size:14px;
+    font-weight:400;
+    padding-top:20px;
+    padding-left:30px;
+}
+
+.loan-amo{
+    display:inline-block;
+    color:#223354;
+    font-size:20px;
+    font-weight:600;
+    padding-left:30px;
+    padding-top:11px;
+    padding-bottom:20px;
+}
+.loan-Emi-div hr{
+    border:1px solid #EFEFEF;
+}
+.pichart{
+    width:340px;
+    height:348px;
+    background-color:#FFFFFF;
+   margin-top:10px;
+   border-radius:5px;
+}
+.pichart-para{
+    margin-left:50px ;
+    color:#223354;
+    font-size:14px;
+    font-weight:700;
+    padding:20px;
+}
+.pichart-img{
+    margin-left:50px;  
+}
+.small-img{
+    vertical-align: middle;
+    margin-left:10px;
+}
+.personal-amunt{
+    display:inline-block;
+    font-size:12px;
+    font-weight:400;
+    margin-right:10px;
+}
+.totel-int{
+    display:inline-block;
+    font-size:12px;
+    font-weight:400;
+}
+.last-img{
+    margin:10px;
+   padding:5px;
+    border:1px solid #EFEFEF
+}
