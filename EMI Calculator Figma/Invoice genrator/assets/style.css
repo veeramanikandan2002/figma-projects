@@ -166,6 +166,16 @@ body{
     margin-top:30px; 
    
 }
+.input-date-div{
+    height:55px;
+    width:300px;
+    position:relative;
+}
+.right-arrow-img-div{
+    position:absolute;
+    top:35px;
+    right:0px;
+}
 .date-input{
     width:300px;
     height:55px;
