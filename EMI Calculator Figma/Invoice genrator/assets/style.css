@@ -12,8 +12,11 @@ body{
 }
 .nav-div{
  width:19%;
- height:700px;
+ height:830px;
  background-color:#FFFFFF;
+ position:sticky;
+ top:0px;
+ 
 }
 .logo{
     margin-top:20px;
@@ -22,7 +25,6 @@ body{
 .options-div{
    
     margin-top:90px;
-    margin-bottom:458px;
 }
 .options{
     display:inline-block;
@@ -64,6 +66,8 @@ body{
     height:80px;
      justify-content: space-between;
      background-color:#FFFFFF;
+    position:sticky;
+ top:0px;
 }
 .img-logo{
     display:flex;
