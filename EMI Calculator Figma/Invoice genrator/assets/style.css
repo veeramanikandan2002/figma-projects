@@ -1,415 +1,490 @@
-*{
-    margin:0px;
-    padding:0px;
-    font-family:inter;
-}
-body{
-    background-color:#2233540D;
-}
-.container{
-    display:flex;
-    width:100%
-}
-.nav-div{
- width:19%;
- height:830px;
- background-color:#FFFFFF;
- position:sticky;
- top:0px;
- 
-}
-.logo{
-    margin-top:20px;
-    margin-left:74px;
-}
-.options-div{
-   
-    margin-top:90px;
-}
-.options{
-    display:inline-block;
-    font-size:14px;
-    font-weight:400;
-    color:#223354;
-    padding-left:20px;
-    padding-bottom:25px;
-    width:75%;
-    padding-top:20px;
-    display:flex;
-    text-decoration: none;
-    margin:10px;
-}
-.options1{
-    color:#1AB4D7;
-    display:inline-block;
-    font-size:14px;
-    font-weight:400;
-    width:75%;
-    background-color:#edf9f7 ;
-    padding:20px 10px 25px 20px;
-    display:flex;
-    margin:10px;
-    text-decoration: none;
-    border-radius:15px;
-} 
-.img{
-    display:inline-block;
-    padding-right:10px;
-    vertical-align: middle;
-}
-.main-div{
-    width:81%;
-
-}
-.head-div{
-    display:flex;
-    height:80px;
-     justify-content: space-between;
-     background-color:#FFFFFF;
-    position:sticky;
- top:0px;
-}
-.img-logo{
-    display:flex;
-}
-.pages{
-    color:#828282;
-    font-size:16px;
-    font-weight:500;
-    display:inline-block;
-    margin-left:20px;
-    margin-top:28px;
-}
-.Invoice-genrator{
-    color:#223354;
-    font-size:16px;
-    font-weight:500;
-    display:inline-block;
-    margin-top:29px;   
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: inter;
 }
 
-.need-help{
-    color:#223354;
-    font-size:14px;
-    font-weight:400;
-    display:inline-block;
-    margin-left:4px;
-    margin-top:30px;
+body {
+    background-color: #2233540D;
+}
+
+.container {
+    display: flex;
+    width: 100%
+}
+
+.nav-div {
+    width: 19%;
+    height: 790px;
+    background-color: #FFFFFF;
+    
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 74px;
+}
+
+.options-div {
+
+    margin-top: 90px;
+}
+
+.options {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #223354;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    width: 75%;
+    padding-top: 20px;
+    display: flex;
     text-decoration: none;
+    margin: 10px;
 }
-.vert-line{
-    width:1px;
-    height:32px;
-    margin-top:24px;
-    margin-left:26px;
-    background-color:#CBCBCB;
+
+.options1 {
+    color: #1AB4D7;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    width: 75%;
+    background-color: #edf9f7;
+    padding: 20px 10px 25px 20px;
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 15px;
 }
-.arrow-mark{
+
+.img {
+    display: inline-block;
+    padding-right: 10px;
     vertical-align: middle;
-    padding-left:8px;
-    padding-right:3px;
 }
-.yaga-img{
-  display:inline-block;
-    margin-top:18px;
-    margin-right:18px;
-   margin-left:24px;
+
+.main-div {
+    width: 81%;
+
 }
-.need-img{
-    height:19px;
-    width:19px;
-    margin-top:28px;
-   vertical-align: middle;
-}
-.invoice{
-    width:100%;
-}
-.invoice-name-num-date-div{
-    display:flex;
-    gap:30px;
-    margin-right:40px;
+
+.head-div {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
    
 }
 
-.invoice-name-div,.invoice-num-div,.invoice-date-div{
-    width:33.33%;
+.img-logo {
+    display: flex;
 }
+
+.pages {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 28px;
+}
+
+.Invoice-genrator {
+    color: #223354;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 29px;
+}
+
+.need-help {
+    color: #223354;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.vert-line {
+    width: 1px;
+    height: 32px;
+    margin-top: 24px;
+    margin-left: 26px;
+    background-color: #CBCBCB;
+}
+
+.arrow-mark {
+    vertical-align: middle;
+    padding-left: 8px;
+    padding-right: 3px;
+}
+
+.yaga-img {
+    display: inline-block;
+    margin-top: 18px;
+    margin-right: 18px;
+    margin-left: 24px;
+}
+
+.need-img {
+    height: 19px;
+    width: 19px;
+    margin-top: 28px;
+    vertical-align: middle;
+}
+
+.invoice {
+    width: 100%;
+}
+
+.invoice-name-num-date-div {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+
+}
+
+.invoice-name-div,
+.invoice-num-div,
+.invoice-date-div {
+    width: 33.33%;
+}
+
 .invoice-name-div .name-head,
 .invoice-name-div .name-input,
 .invoice-name-div .due-date,
 .invoice-name-div .date-input,
-.invoice-name-div .invoice-text-area{
-    margin-left:30px;
+.invoice-name-div .invoice-text-area {
+    margin-left: 30px;
 }
-.name-head{
-    margin-top:55px;
-    font-size:16px;
-    font-weight:500;
-    color:#BDBDBD;
+
+.name-head {
+    margin-top: 55px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #BDBDBD;
 }
-.name-input{
-    width:300px;
-    height:55px;
-    padding-left:20px;
-    margin-top:16px;
+
+.name-input {
+    width: 300px;
+    height: 55px;
+    padding-left: 20px;
+    margin-top: 16px;
     border: 1px solid #BDBDBD;
-    border-radius:4px;
-    background-color:#2233540D;
-    background:transparent;
-    font-size:16px;
-    font-weight:400;
+    border-radius: 4px;
+    background-color: #2233540D;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
 }
-.due-date{
-    font-size:16px;
-    font-weight:500;
-    color:#BDBDBD;
-    margin-top:30px; 
-   
-}
-.input-date-div{
-    height:55px;
-    width:300px;
-    position:relative;
-}
-.right-arrow-img-div{
-    position:absolute;
-    top:35px;
-    right:0px;
-}
-.date-input{
-    width:300px;
-    height:55px;
-    padding-left:20px;
-    margin-top:16px;
-    border: 1px solid #BDBDBD;
-    border-radius:4px;
-    background-color:#2233540D;
-    background:transparent;
-    font-size:16px;
-    font-weight:400;
-}
-.invoice-text-area{
-height:268px;
-width:290px;
-font-size:16px;
-font-weight:400;
-border-radius:4px;
-color:#828282;
-border:1px solid #BDBDBD ;
-background-color:#2233540D;
-resize:none;
-margin-top:16px;
-background:transparent;
-padding:20px;
-margin-bottom:30px;
+
+.due-date {
+    font-size: 16px;
+    font-weight: 500;
+    color: #BDBDBD;
+    margin-top: 30px;
 
 }
-.invoice-name-div .invoice-text-area{
-    margin-top:70px;
+
+.invoice-date-div .due-date {
+    margin-top: 46px;
 }
-.to-para{
-    margin-top:32px;
-    font-size:16px;
-    font-weight:500;
-    color:#BDBDBD;
+
+.input-date-div {
+    height: 55px;
+    width: 300px;
+    position: relative;
+
 }
-.tables{
-    width:100%;
-  
+
+.right-arrow-img-div {
+    position: absolute;
+    top: 35px;
+    right: 0px;
 }
-.Table-name{
-    font-size:24px;
-    font-weight:700;
-    color:#223354;
-    margin-left:30px;
-    
+
+.date-input {
+    width: 300px;
+    height: 55px;
+    padding-left: 20px;
+    margin-top: 16px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    background-color: #2233540D;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
 }
-.tr-head{
-    background-color:#223354;
-    color:#FFFFFF;
- 
+
+.invoice-text-area {
+    height: 248px;
+    width: 290px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    color: #828282;
+    border: 1px solid #BDBDBD;
+    background-color: #2233540D;
+    resize: none;
+    margin-top: 16px;
+    background: transparent;
+    padding: 20px;
+    margin-bottom: 30px;
+
 }
-.tr-head td{
-    color:#FFFFFF; 
-    font-size:16px;
-    font-weight:700;
+
+.invoice-name-div .invoice-text-area {
+    margin-top: 70px;
 }
+
+.to-para {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #BDBDBD;
+}
+
+.tables {
+    width: 100%;
+
+}
+
+.Table-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #223354;
+    margin-left: 30px;
+
+}
+
+.tr-head {
+    background-color: #223354;
+    color: #FFFFFF;
+
+}
+
+.tr-head td {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 table {
     border-collapse: collapse;
-    margin-left:30px;
-    margin-top:16px;
+    margin-left: 30px;
+    margin-top: 16px;
 }
 
 
-.table-input1{
-    border:1px solid #BDBDBD;
-    border-radius:4px;
-    width:418px;
-    height:55px;
-    background-color:transparent;
-    padding-left:24px;
-    font-size:16px;
-    font-weight:400;
-}
-.table-input2{
-    border:1px solid #BDBDBD;
-    border-radius:4px;
-    width:42px;
-    height:55px;
-    background-color:transparent;
-    padding-left:24px;
-    font-size:16px;
-    font-weight:400;
-}
-.table-input3,.table-input4{
-    border:1px solid #BDBDBD;
-    border-radius:4px;
-    width:100px;
-    height:55px;
-    background-color:transparent;
-    padding-left:24px;
-    font-size:16px;
-    font-weight:400;
-  
+.table-input1 {
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    width: 418px;
+    height: 55px;
+    background-color: transparent;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.rupe-img{
-    margin-left:-30px;
+.table-input2 {
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    width: 42px;
+    height: 55px;
+    background-color: transparent;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.table-input3,
+.table-input4 {
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    width: 100px;
+    height: 55px;
+    background-color: transparent;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.rupe-img {
+    margin-left: -30px;
 }
 
 .tr-f td .f-td {
-    color:#4F4F4F;
-}
-table .tr-s td{
-    color:#828282;
+    color: #4F4F4F;
 }
 
-.f-td{
-    padding:20px 0px 20px 16px;
+table .tr-s td {
+    color: #828282;
 }
-.s-td{
-    
-    padding:4px 0px 4px 48px;  
+
+.f-td {
+    padding: 20px 0px 20px 16px;
 }
-.t-td{
-    padding-left:65px;
+
+.s-td {
+
+    padding: 4px 0px 4px 48px;
+}
+
+.t-td {
+    padding-left: 65px;
 
 }
-.fo-td{
-    padding-left:65px;
+
+.fo-td {
+    padding-left: 65px;
 }
-.fiv-td{
-    padding-left:50px;
+
+.fiv-td {
+    padding-left: 50px;
 }
-.tr-head .fiv-td{
-    padding-left:115px;
-    padding-right:24px;
+
+.tr-head .fiv-td {
+    padding-left: 115px;
+    padding-right: 24px;
 }
- .tr-s{
-    background-color:#E0E0E066;
+
+.tr-s {
+    background-color: #E0E0E066;
 }
-.tr-head td:first-child{
-    border-radius:4px 0px 0px 4px ;
+
+.tr-head td:first-child {
+    border-radius: 4px 0px 0px 4px;
 }
-.tr-head td:last-child{
-    border-radius:0px 4px 4px 0px ;
+
+.tr-head td:last-child {
+    border-radius: 0px 4px 4px 0px;
 }
-.button-add{
-    padding:13px 27px;
-    color:#FFFFFF;
-    background-color:#1AB4D7;
-    font-size:16px;
-    font-weight:500;
-    border:none;
-    border-radius:8px;
+
+.button-add {
+    padding: 13px 27px;
+    color: #FFFFFF;
+    background-color: #1AB4D7;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
 }
-.button-div{
-    display:flex;
-    justify-content:end;
-    margin-right:30px;
-    margin-top:7px;
-    
-}
-.invoice-gen-div{
-    background-color:#FFFFFF;
-    display:flex;
-    width:98%;
-    margin-top:30px;
-}
-.invoice-gen-img-div{
-    margin-top:88px;
-    margin-left:133px;
-    
-}
-.amound-detailes{
-    margin-top:24px;
-    margin-left:204px;
-}
-.title{
-    font-size:16px;
-    font-weight:500;
-    color:#BDBDBD;
-    display:inline-block;
-    margin-bottom:51px;
-}
-.amount{
-    font-size:16px;
-    font-weight:400;
-    color:#4F4F4F;
-    display:inline-block; 
+
+.button-div {
+    display: flex;
+    justify-content: end;
+    margin-right: 54px;
+    margin-top: 7px;
 
 }
+
+.invoice-gen-div {
+    background-color: #FFFFFF;
+    display: flex;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.invoice-gen-img-div {
+    margin-top: 88px;
+    margin-left: 133px;
+
+}
+
+.amound-detailes {
+    margin-top: 24px;
+    margin-left: 200px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #BDBDBD;
+    display: inline-block;
+    margin-bottom: 51px;
+}
+
 .amount {
-    margin-left:98px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F4F4F;
+    display: inline-block;
+
 }
-.amount span{
-    margin-left:40px;
-    
+
+.amount {
+    margin-left: 98px;
 }
-.second-amount .amount{
-    width:100px;
-    height:39px;
-    border:1px solid #BDBDBD;
-    border-radius:4px;
-    margin-left:50px;
-    padding-top:16px;
-    padding-left:24px;
+
+.amount span {
+    margin-left: 40px;
+
 }
-.notes-terms-div{
-    display:flex;
-    width:100%;
-    margin-top:32px;
-    gap:38px;
-    margin-bottom:98px;
+
+.second-amount .amount {
+    width: 100px;
+    height: 39px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    margin-left: 50px;
+    padding-top: 16px;
+    padding-left: 24px;
 }
-.notes{
-    width:50%;
-    
+
+.notes-terms-div {
+    display: flex;
+    width: 100%;
+    margin-top: 32px;
+    gap: 38px;
+    margin-bottom: 98px;
 }
-.head-para{
-    font-size:16px;
-    font-weight:500;
-    color:#BDBDBD;
+
+.notes {
+    width: 50%;
+
 }
-.notes-small-div{
-    height:118px;
-    width:500px;
-    border:1px solid #E0E0E0;
-    margin-top:16px;
+
+.notes .head-para {
+    margin-left: 30px;
 }
-.terms-small-div{
-    height:118px;
-    width:500px;
-    border:1px solid #E0E0E0;
-    margin-top:16px;
+
+.head-para {
+    font-size: 16px;
+    font-weight: 500;
+    color: #BDBDBD;
 }
-.notes-para{
-    margin-left:24px;
-    margin-top:16px;
-    color:#BDBDBD;
-    font-size:16px;
-    font-weight:400;
+
+.notes-small-div {
+    height: 118px;
+    width: 501px;
+    border: 1px solid #E0E0E0;
+    margin-top: 16px;
+    border-radius: 4px;
+    margin-left: 30px;
 }
-.terms{
-    width:50%;
+
+.terms-small-div {
+    height: 118px;
+    width: 501px;
+    border: 1px solid #E0E0E0;
+    margin-top: 16px;
+    border-radius: 4px;
+}
+
+.notes-para {
+    margin-left: 24px;
+    margin-top: 16px;
+    color: #BDBDBD;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.terms {
+    width: 50%;
 }
